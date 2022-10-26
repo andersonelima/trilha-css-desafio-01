@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700;900&display=swap');
+
+:root {
+    --color-title: #33A8DB;
+    --color-text-button: #31A8DD;
+
+    --border-section: 1px solid #33A8DB80;
+    --border-gradient: linear-gradient(#3BA1CD, #1572B7);
+
+    --color-text: #ffffff;
+
+    --bg-collor: #000000;
+    --bg-color-card: #252525;
+
+    --bg-transparet: rgba(0, 0, 0, .2);
+
+    --bg-box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    --txt-shadow-blue: 3px 2px #33a8db;
+}
+
+body {
+
+    color: var(--color-text);
+    background-color: var(--bg-collor);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-title);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 4px;
+    color: var(--color-title);
+    margin-bottom: 24px;
+}
+
+section {
+    margin: 100px auto;
+    width: 800px;
+    text-align: center;
+}
+
+footer {
+    padding: 60px 0;
+    border-top: var(--border-section);
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .1));
+}
